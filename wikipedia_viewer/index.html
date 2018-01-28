@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metatags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Wikipedia viewer</title>
+
+  <!-- Javascript scripts -->
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts/script.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  <!-- styles -->
+  <link rel="stylesheet" href=" styles/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Bootstrap -->
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+  <body>
+  <div class="container-fluid">
+    <div id="panel">
+      <div class="text-center">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h1>Wikipedia Searcher</h1>
+            <p>by Daniel VG</p>
+          </div>
+          <div class="panel-body">
+            <form id="searcForm">
+              <div class="form-group">
+                <label for="wikipediaSeach">Search something on Wikipedia!</label>
+                <!-- input to search wikipedia -->
+                <input type="text" class="form-control" id="searchTerm" placeholder="Enter search term!">
+                <!-- search random article -->
+                <a href="https://en.wikipedia.org/wiki/Special:Random" class="exteral-url" target="_blank"><small id="searchHelp" class="form-text text-muted">Also try a random wikipedia article!</small></a>
+              </div>
+              <!-- button to search wikipedia -->
+              <button type="submit" class="btn btn-primary" id="searchInput">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of Panel -->
+    <div class="row">
+      <div class="text-center col-md-4 col-md-offset-4" id="result">
+        <!-- search results from the query -->
+        <ul id="searchResults">
+
+        </ul>
+      </div>
+    </div>
+    <!-- end of results list -->
+  </div>
+  <!-- end of container -->
+</body>
+</html>

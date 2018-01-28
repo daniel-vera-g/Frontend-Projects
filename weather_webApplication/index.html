@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Metatags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>The Weather App</title>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <!-- Javascript scripts -->
+  <script src="scripts/script.js"></script>
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+  <!-- styles -->
+  <link rel="stylesheet" href=" styles/styles.css" />
+  <!-- Bootstrap -->
+  <link href="styles/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- header with Information about the App -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid text-center">
+      <h1>Weather Application</h1>
+      <p>
+        by Daniel VG
+      </p>
+    </div>
+  </nav>
+
+  <!-- Main part of the Web Application-->
+  <div class="mainPart" id="page-wrap">
+
+    <!-- Name of the city + aim of Applcatiob -->
+    <div class="text-center">
+      <h1>The current weather in</h1>
+      <h1 id="city"></h1>
+      <h1>is:</h1>
+      <h1 id="weather"></h1>
+      <h2 id="temperature"></h2>
+      <img id="weatherImage"/>
+    </div>
+
+    <!-- Toggle button to select between Fahrreneinheit and Celsius -->
+    <div class="text-center ">
+      <button type="button" class="btn btn-default btn-md" id="tempUnitButton">Change the temperature unit to Fahrreneinheit</button>
+    </div>
+  </div>
+</body>
+</html>
