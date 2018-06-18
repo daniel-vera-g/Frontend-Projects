@@ -1,16 +1,8 @@
-# Weather Application
+# Random Quote machine
 
-> A simple website to show the current weather in your city.
+> A simple website to show a random quote and tweet it.
 
-![alt](./img/wt.png)
-
-## What it does
-
-* You can see the weather in degrees celsius or Fahrreneinheit.
-
-## How ot works
-
-* This Website uses an API to load the Weather from the current location.
+![r](./img/r.png)
 
 ## Installation & Usage
 

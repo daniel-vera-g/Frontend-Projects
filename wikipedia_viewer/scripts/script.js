@@ -1,6 +1,6 @@
-$(document).ready(function () {
-  //handle the search query
-  $('#searchInput').click(function(){
+$(document).ready(() => {
+	// handle the search query
+	$("#searchInput").click(() => {
     //get the search request
     var searchTerm = $('#searchTerm').val();
     //set up the full api
